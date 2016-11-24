@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildrenInCircle", "ChildrenInCircle\ChildrenInCircle.csproj", "{0C1A33F8-490B-4B5B-8354-6F06229E5AB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildrenInCircle.Tests", "ChildrenInCircle.Tests\ChildrenInCircle.Tests.csproj", "{1EFA8195-258C-46EE-8D4B-C123457C9585}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C1A33F8-490B-4B5B-8354-6F06229E5AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C1A33F8-490B-4B5B-8354-6F06229E5AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C1A33F8-490B-4B5B-8354-6F06229E5AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C1A33F8-490B-4B5B-8354-6F06229E5AB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EFA8195-258C-46EE-8D4B-C123457C9585}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EFA8195-258C-46EE-8D4B-C123457C9585}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EFA8195-258C-46EE-8D4B-C123457C9585}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EFA8195-258C-46EE-8D4B-C123457C9585}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
