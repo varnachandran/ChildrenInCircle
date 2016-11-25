@@ -24,4 +24,5 @@ Complexity for finding element at an index k is O(k) and this has to be repeated
 A LinkedList is implemented as a doubly linked list and complexity of finding an element at an index k is O(k).
 LinkedList needs memory for all the next/previous references too.
 
+Validation of inputs entered is also omitted since I am using a numericdropdown for accepting values of n and k
 I have limited the maximum values of n and k as 10000 to prevent overflow.
