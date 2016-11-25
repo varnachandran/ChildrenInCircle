@@ -34,14 +34,20 @@ namespace ChildrenInCircle
             
 
           }
-        //Order of complexity for adding to the end of the queue is O(1)
-        //Order of complexity for removing from the beginning of the queue is O(1)
-        //Order of complexity of finding the position to be removed is O(n), O(_eliminateIndex) here
-        //the loop runs n times, so the complexity of outer loop is O(n)
-        //The total complexity is O(n^2)
-        //If a linked list is used to store data, it is easier to delete elements in between
-        //but it takes more time to traverse through the list. More memory is also consumed because 
-        //it has to store references 
+//For the Elimination index list, List datatype is used		
+//List<T> is implemented as an array internally. Complexity for adding an element to a list is O(1), and n-1 elements are added to the List
+//so complexity is O(n-1) for generating the elimination list.
+
+//For representing the children present in the Game currently, a Queue is used.
+//The Queue<T>.Enumerator structure enumerates the elements of a Queue<T>. Queue<T> class implements a general queue as
+//a circular array.Queue is useful we need to discard an element after getting its value.
+
+//Complexity for adding an element to end of queue is O(1).
+//Complexity for removing an element from beginning of queue is O(1)
+//Complexity for finding element at an index k is O(k) and this has to be repeated for n-1 elements, the complexity is O((k)(n-1))
+
+//A LinkedList is implemented as a doubly linked list and complexity of finding an element at an index k is O(k).
+//LinkedList needs memory for all the next/previous references
 
 
         public int FindWinner()
