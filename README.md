@@ -9,6 +9,8 @@ Aim is to write some code which, when given n and k, calculates:
 
 Assumptions: 
 The input form does not take values of n<2 and k<1, so even if the user enters values which are not practical, the system resets n to 2 and k to 1
+
+
 For the Elimination index data, List datatype is used		
 List<T> is implemented as an array internally. Complexity for adding an element to a list is O(1), and n-1 elements are added to the List
 so complexity is O(n-1) for generating the elimination list.
